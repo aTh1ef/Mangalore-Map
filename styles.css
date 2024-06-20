@@ -28,5 +28,10 @@ body {
     word-wrap: break-word;
   }
   
-
+  @media (max-width: 600px) {
+    #message-box {
+      width: 70%;
+      left: 5%;
+    }
+  }
   
